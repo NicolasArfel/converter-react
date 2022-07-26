@@ -1,0 +1,21 @@
+@use 'src/styles/vars';
+
+.ConverterHeader {
+  background: vars.$color;
+  color: vars.$color-light;
+  text-align: center;
+  padding: vars.$gutter * 3 0;
+  font-size: 1.3rem;
+
+  &-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+  &-subTitle {
+    font-size: 1rem;
+    color: vars.$color-alt;
+    font-weight: 300;
+    
+  }
+}

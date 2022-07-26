@@ -1,0 +1,16 @@
+@use '/src/styles/vars';
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;500;700&display=swap');
+
+
+body{
+  background: vars.$color-alt;
+  font-size: 16px;
+}
+.Converter {
+  position: relative;
+  margin: 2rem auto;
+  font-family: 'League Spartan', sans-serif;  
+  color: vars.$color;
+  max-width: 300px;
+  height: 100vh;  
+}

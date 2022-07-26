@@ -1,0 +1,18 @@
+@use 'src/styles/vars';
+
+.ConverterFooter {
+    background: vars.$color-light;
+    text-align: center;
+    padding: vars.$gutter * 3 0;
+
+    &-rate {
+      font-size: 2rem;
+      font-weight: 700;
+    }
+    &-currency {
+      font-size: 1.5rem;
+      font-weight: 300;
+      color: vars.$color-alt;
+      padding: 0.3rem;
+    }
+}

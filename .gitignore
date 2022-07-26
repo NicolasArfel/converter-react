@@ -1,0 +1,11 @@
+node_modules/
+dist/
+docs/
+.DS_Store
+Thumbs.db
+
+yarn-error.log
+.env*
+!.env*.example
+
+.vscode/
